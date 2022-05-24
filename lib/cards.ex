@@ -3,19 +3,6 @@ defmodule Cards do
   Documentation for `Cards`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Cards.hello()
-      :world
-
-  """
-  def hello do
-    "hello world!"
-  end
-
   def create_deck do
     values = ["Ace", "Two", "Three", "Four", "Five"]
     suits = ["Spades", "Clubs", "Hearts", "Diamonds"]
